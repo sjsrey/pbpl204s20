@@ -3,13 +3,13 @@
 #+LATEX_CLASS: article
 #+latex_class_options: [12pt]
 #+LATEX_HEADER: \usepackage{fullpage}
-#+OPTIONS: toc:nil num:nil author:nil d:nil date:nil
+#+OPTIONS: toc:nil author:nil d:nil date:nil
 
 * Project Description
-The course project provides and opportunity to blend your newly acquired
+The course project provides the opportunity to blend your newly acquired
 computational skills with the theories, methods, and models of regional
-analysis. Beginning in week five of the quarter, we will dedicate the second
-weekly meeting to project studies where we collaborate on moving your projects
+and spatial analysis. Beginning in week five of the quarter, we will dedicate the second
+weekly meeting to project studios where we collaborate on moving your projects
 forward.
 * Requirements
 - Projects must be approved by the instructor by April 20
@@ -17,16 +17,17 @@ forward.
 - Your final project will be based on the state of the master branch on June 11
 * Grading 
 
-| Component                   | Points | Due      |
-|-----------------------------+--------+----------|
-| Project Proposal            |     20 | April 20 |
-| Milestone I Report          |     10 | May 4    |
-| Milestone II Report         |     10 | May 18   |
-| Project Presentation        |     20 | June 11  |
-| Project Paper/Documentation |     30 | June 11  |
-|-----------------------------+--------+----------|
+| Component             | Points | Due      |
+|-----------------------+--------+----------|
+| Project Proposal      |     20 | April 20 |
+| Milestone I Report    |     10 | May 4    |
+| Milestone II Report   |     10 | May 18   |
+| Project Presentation  |     20 | June 11  |
+| Project Documentation |     30 | June 11  |
+|-----------------------+--------+----------|
 ** Project Proposal
 Selection of one of the topics (below), or other that identifies:
+- identification of team
 - identification of data sets that will be used
 - at least 5 references related to tools/methods/models on the analytic
 - draft list of tasks and time table
@@ -59,6 +60,12 @@ Selection of one of the topics (below), or other that identifies:
   - discoverability of your tool by a user
 
 * Potential Topics 
+You are strongly encouraged to select from one of the following topics. These
+all are "shovel-ready" type projects related to research in the Center for
+Geospatial Sciences. If you have an alternative project that you would like to
+pursue, talk to me immediately.
+
+You are also encouraged to collaborate with at least one other colleague on the project.
 ** Regional Inequality Data Portal
 *** Components (Initial Ideas)
 - Use BEA County Income Series for US Counties
