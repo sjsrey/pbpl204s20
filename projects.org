@@ -85,3 +85,9 @@ Selection of one of the topics (below), or other that identifies:
 - Implement regional IO tables
 - Implement industrial clustering algorithms
 - Interface to explore regional industrial clustering
+** Identifying Regional Employment Centers
+*** Components (Initial Ideas)
+- Using LODES to identify geographic concentrations of employment
+- Calculate pedestrian and transit accessibility measures using OpenStreetMap and GTFS data
+- Measure urban agglomeration, employment specialization, and comparative advantage
+- Examine change in employment specialization and/or spatial footprint over time
