@@ -1,0 +1,87 @@
+#+TITLE: Projects
+#+SUBTITLE: Public Policy 204 @@latex:\\@@ Spring 2020 @@latex:\\@@ University of California
+#+LATEX_CLASS: article
+#+latex_class_options: [12pt]
+#+LATEX_HEADER: \usepackage{fullpage}
+#+OPTIONS: toc:nil num:nil author:nil d:nil date:nil
+
+* Project Description
+The course project provides and opportunity to blend your newly acquired
+computational skills with the theories, methods, and models of regional
+analysis. Beginning in week five of the quarter, we will dedicate the second
+weekly meeting to project studies where we collaborate on moving your projects
+forward.
+* Requirements
+- Projects must be approved by the instructor by April 20
+- Project code must be fully documented and available on a github repository
+- Your final project will be based on the state of the master branch on June 11
+* Grading 
+
+| Component                   | Points | Due      |
+|-----------------------------+--------+----------|
+| Project Proposal            |     20 | April 20 |
+| Milestone I Report          |     10 | May 4    |
+| Milestone II Report         |     10 | May 18   |
+| Project Presentation        |     20 | June 11  |
+| Project Paper/Documentation |     30 | June 11  |
+|-----------------------------+--------+----------|
+** Project Proposal
+Selection of one of the topics (below), or other that identifies:
+- identification of data sets that will be used
+- at least 5 references related to tools/methods/models on the analytic
+- draft list of tasks and time table
+** Milestone 1 
+- Github repository
+- README.md
+- Issue list 
+- Progress report
+  - What has been accomplished
+  - What remains
+  - Any blocking issues
+** Milestone 2 
+- Test suite
+- Draft of documentation
+  - vignette
+  - use cases
+  - notebooks
+- Progress report
+  - What has been accomplished
+  - What remains
+  - Any blocking issues
+** Presentation
+- 30 minute presentation
+  - 15 minutes overview of the projecct
+  - 15 leading colleagues through a short tutorial
+** Final Deliverable
+- Github master branch as of June 11
+- Repository will be evaluated for 
+  - test passing
+  - discoverability of your tool by a user
+
+* Potential Topics 
+** Regional Inequality Data Portal
+*** Components (Initial Ideas)
+- Use BEA County Income Series for US Counties
+- Process data to handle time-series breakage
+- Add regional inequality analytics
+- Interface to explore cleaned series with analytics
+** QGIS Plugin for Regional Analytics 
+*** Components (Initial Ideas)
+- Using Processing in QGIS
+- Using BEA regional employment and income series
+- Implement regional analytics as a package
+  - Location Quotients
+  - Diversification Indices
+  - Shift-share Analysis
+- Interface to explore analytics
+** QGIS Plugin for PySAL
+*** Components (Initial Ideas)
+- Using Processing in QGIS
+- Select PySAL Package
+- Implement Toolbox for PySAL analytics in QGIS 
+** Industrial Clustering Toolkit 
+*** Components (Initial Ideas)
+- Using BEA IO Accounts and CBP data
+- Implement regional IO tables
+- Implement industrial clustering algorithms
+- Interface to explore regional industrial clustering

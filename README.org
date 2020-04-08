@@ -1,0 +1,203 @@
+#+TITLE:  Regional Policy-Making Across Administrative Jurisdictions
+#+SUBTITLE: Public Policy 204 @@latex:\\@@ Spring 2020 @@latex:\\@@ University of California
+#+LATEX_CLASS: article
+#+latex_class_options: [12pt]
+#+LATEX_HEADER: \usepackage{fullpage}
+#+OPTIONS: toc:nil num:nil author:nil d:nil date:nil
+
+| /            |                | <              |                   |
+| Instructor   | Sergio Rey     | Class Meetings | M, W, 15:30-16:50 |
+| Office Hours | Tr 14:00-15:00 | Room           | On-line           |
+| Office       | On-line        |                |                   |
+
+
+* Introduction
+   :PROPERTIES:
+   :CUSTOM_ID: introduction
+   :END:
+
+This course provides an introduction to the analytical tools used in regional
+policy analysis development, implementation, and evaluation. Open source tools
+and practices for transparent and reproducible regional policy analysis are
+emphasized.
+
+The course is organized into two parts. In Part I, we introduce the use of the
+Python scripting language applied to common regional data sets. The goal is to
+learn they key aspects of Python through examples that work with regional
+economic, demographic, and administrative data. Through this, students acquire
+both a new skill set in computational scripting, but also experience in the
+particularities of regional data sets that form the core of regional policy analysis.
+In Part II the focus shifts towards a coverage of the mainstay regional
+analytical methods and models. Again, these are interrogated from a
+computational point of view so that students further develop their scripting abilities.
+
+
+The motivation for this organization is three-fold. First, computational
+learning provides a deeper understanding of the theoretical concepts and
+frameworks. It is one thing to read about a regional
+economic multiplier, but actually implementing the estimation of the
+particular multiplier for a regional economy provides insights beyond
+what theory can offer. Second, through these hands-on exercises, you
+will acquire skill-sets that are highly sought in the field of public
+policy analysis. Third, no single package currently exists that can
+handle the wide variety of data sets, and formats, along with the
+diversity of models and analytical tools. This means that the ability to
+do customized scripting is vital for success as a regional policy
+analyst.
+
+The key focus is on learning the main regional analytical tools used in
+the study of regions. Programming and scripting are a means to this end.
+Although prior programming experience would be helpful, it is not
+assumed, as all computational concepts will be presented from first
+principles.
+
+* Learning Outcomes
+   :PROPERTIES:
+   :CUSTOM_ID: learning-outcomes
+   :END:
+
+Through this course, students will:
+
+- gain an understanding of the different types of analytical tools and
+  models used in regional policy making and analysis;
+- acquire working knowledge of the key sources of economic and
+  demographic data for the study of regional economies in the United
+  States;
+- develop the ability to construct and apply a subset of the more widely
+  used regional models to regions in California;
+- learn principles of computational scripting and the importance of
+  documentation and reproducibility in regional policy analysis
+  workflows.
+
+* Grading
+   :PROPERTIES:
+   :CUSTOM_ID: grading
+   :END:
+
+Your course grade will be based on the following components
+
+| Component                   | Points | Due      |
+|-----------------------------+--------+----------|
+| Project Proposal            |     20 | April 20 |
+| Milestone I Report          |     10 | May 4    |
+| Milestone II Report         |     10 | May 18   |
+| Project Presentation        |     20 | June 11  |
+| Project Paper/Documentation |     30 | June 11  |
+| Collaboration               |     10 | NA       |
+|-----------------------------+--------+----------|
+
+Details on the course project will be given during the second week of the
+quarter.
+
+Collaboration points can be earned for presenting a mini-lecture on a course
+topic. Details on the mini-lectures will be posted during the second week of
+the quarter.
+
+
+* Academic Integrity
+   :PROPERTIES:
+   :CUSTOM_ID: academic-integrity
+   :END:
+
+The UCR student academic integrity policy lists violations in detail.
+These violations fall into eight broad areas that include but are not
+limited to: cheating, fabrication, plagiarism, facilitating academic
+misconduct, unauthorized collaboration, interference or sabbotage,
+non-compliance with research regulations and retaliation. For more
+information about the UCR student academic integrity policy, please use
+the following web link
+[[http://conduct.ucr.edu/policies/academicintegrity.html]]
+
+* Disability accommodations
+   :PROPERTIES:
+   :CUSTOM_ID: disability-accommodations
+   :END:
+
+Qualified students with disabilities who will require disability
+accommodations in this class are encouraged to make their requests to me
+at the beginning of the quarter either during office hours or by
+appointment. Note: Prior to receiving disability accommodations,
+verification of eligibility from the [[http://sdrc.ucr.edu/][Student
+Disability Resource Center]] is required. Disability information is
+confidential.
+
+* Code of Conduct
+   :PROPERTIES:
+   :CUSTOM_ID: code-of-conduct
+   :END:
+
+As course instructor, I am dedicated to providing a harassment-free
+learning experience for all students, regardless of gender, sexual
+orientation, disability, physical appearance, body size, race, religion,
+or choice of operating system. All course participants are expected to
+show respect and courtesy to other students throughout the semester. As
+a learning community we do not tolerate harassment of participants in
+any form.
+
+All communication should be appropriate for a professional audience
+including people of many different backgrounds. Sexual language and
+imagery are not appropriate in this course.
+
+Be kind to others. Do not insult or put down other students. Behave
+professionally. Remember that harassment and sexist, racist, or
+exclusionary jokes are not appropriate for the course.
+
+Students violating these rules may be asked to leave the course, and
+their violations will be reported to the UCR administration.
+
+This code of conduct is an adaptation of the
+[[https://scipy2017.scipy.org/ehome/220975/493434/][SciPy 2017 Code of
+Conduct]].
+
+
+* Schedule Summary (Planned)
+  :PROPERTIES:
+  :CUSTOM_ID: schedule-summary-planned
+  :END:
+
+
+** Part I: Tools for Open Regional Analysis
+*** Week 1: March 30, April 1
+- Monday March 30: Course Introduction
+- Wednesday April 1: Introduction to Python 
+
+*** Week 2: April 6, 8
+- Monday March 6: Data Structures for Regional Analysis
+- Wednesday March 8: Visualization for Regional Analysis
+
+*** Week 3: April 13, 15
+- Monday April 13: Spatial Data in Python
+- Wednesday April 15: Geovisualization in Python
+
+*** Week 4: April 20, 22 
+- Monday April 20: Spatial Analysis in Python
+- Wednesday April 22: Regionalization in Python 
+
+** Part II: Theories and Models for Regional Analysis
+
+*** Week 5: April 27, 29 
+- Monday April 20: Economic Base Models
+- Wednesday April 29: Project Studio
+
+*** Week 6: May 4, 6
+- Monday May 4:  Regional Diversification Theory
+- Wednesday May 6: Project Studio
+
+*** Week 7: May 11, 13 
+- Monday May 11: Shift-Share Analysis
+- Wednesday May 13: Project Studio
+
+** Week 8: May 18, 20
+- Monday May 18: Input-Output Accounts
+- Wednesday May 20: Project Studio
+
+** Week 9: May 25, 27
+- /Monday May 25: Memorial Day Holiday/
+- Wednesday May 27: Project Studio
+
+** Week 10: June 1, June 3
+- Monday June 1: Input-Output Models
+- Wednesday June 3:  Project Studio
+
+** Final Exam (Presentations): Thursday, June 11, 3:00 p.m. - 6:00 p.m.
+
